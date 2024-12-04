@@ -30,21 +30,34 @@ Hardware – PCs, Cyclone II , USB flasher
 
 5.	For different input combinations generate the timing diagram.
 
-
+```
 **Program:**
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:*/
+Developed by:S.Dharshini
+ RegisterNumber:*/24901197
+```
+```
+module exe_2(f_and,f_or,f_not,f_nor,f_nand,f_xor,f_xnor,a,b);
+input a,b;
+output f_and,f_or,f_not,f_nor,f_nand,f_xor,f_xnor;
+and(f_and,a,b);
+or(f_or,a,b);
+not(f_not,a);
+nand(f_nand,a,b);
+nor(f_nor,a,b);
+xor(f_xor,a,b);
+xnor(f_xnor,a,b);
+endmodule
+```
 
-
-**RTL realization**
 
 **Output:**
-
-**RTL**
+![WhatsApp Image 2024-12-04 at 09 04 13_1ec464fb](https://github.com/user-attachments/assets/e9ed2155-bbba-4aa5-bce4-34b17aab5a33)
 
 **Timing Diagram**
+![WhatsApp Image 2024-12-04 at 09 07 04_2d3d458e](https://github.com/user-attachments/assets/79ae52d0-d572-425b-a9e3-695492dd958f)
 
 **Result:**
 
